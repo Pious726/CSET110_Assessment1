@@ -39,14 +39,8 @@
    color: cyan;  
 }
 
-body {
-    font-family: arial, sans-serif;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
 footer{
-    background:#252626;;
+    background:#252626;
     color:white;
     text-align: left;
     padding: 20px 0;
@@ -148,20 +142,67 @@ p {
     margin: 12px 0;
 }
 
+/* Contact */
+
+ form {
+	margin: 0 auto;
+	width: 100%;
+    padding: 24px 0 ;
+    display: block;
+}
+
+form input, form textarea {
+    display: block;
+    border: 2px solid black;
+    width: 50%;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px 10px;
+    text-transform: uppercase;
+    display:block;
+    margin: auto;
+    width: 75%;
+    max-width: 650px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+}
+form textarea {
+    height: 200px;
+}
+form #send {
+    border-bottom-width: 2px;
+    background-color: #252626;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+
+}
+
+form #send:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
 body,html{
     height: 100%;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+
+.about-container{
     width: 80%;
     margin: 20px auto;
     padding: 20px;
     text-align: center;
 }
+
 header{
     margin: 20px 0;
 }
+
 .title{
     background-color: black;
     color: white;
@@ -170,15 +211,16 @@ header{
     font-weight: bold;
     letter-spacing: 2px;
     text-shadow: 1px 1px #ffffff,-1px -1px #000000;
+    display: inline-block;
 }
 .image-selection{
-    border:2px solid black;
     padding: 10px;
     margin: 20px auto;
 }
 .content-image{
     width: 600px;
     height: auto;
+    border:2px solid #252626;
 }
 text.section{
     margin: 40px 0;
@@ -187,12 +229,12 @@ text.section{
 .section-title{
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin: 20px 0 5px 0;
 }
 .section-text{
     font-size: 16px;
     line-height: 25px;
-    text-align: justify;
+    text-align: center;
     margin: 0 auto;
-    width: 70%;
+    width: 100%;
 }
