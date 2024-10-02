@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.main-nav a {
+    margin:10px;
+    display: block;
+    text-decoration: none;
+    color: black;
+
+}
+
+.main-nav a:hover {
+   color: cyan;  
+}
+
+.main-nav a:active {
+    color: cyan;
+}
