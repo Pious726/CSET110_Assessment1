@@ -39,12 +39,6 @@
    color: cyan;  
 }
 
-body {
-    font-family: arial, sans-serif;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
 footer{
     background:#252626;
     color:white;
@@ -197,15 +191,18 @@ body,html{
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+
+.about-container{
     width: 80%;
     margin: 20px auto;
     padding: 20px;
     text-align: center;
 }
+
 header{
     margin: 20px 0;
 }
+
 .title{
     background-color: black;
     color: white;
