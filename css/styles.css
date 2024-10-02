@@ -5,9 +5,42 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
 .hero {
     background-image: url("../images/the-beacon.jpg");
-    
-    width: 100%;
-    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.hero-content h2{
+    background-color: #fff;
+    color: #000;
+}
+
+.hero-content p {
+    background-color: #000;
+    color: #fff;
+}
+
+.readmore {
+    background-color: cyan;
+    padding: 20px;
+}
+
+.three-grid {
+    display: flex;
+
+}
+
+.flex-item {
+    margin: 10px;
+}
+
+.three-grid img {
+    border: 1px solid black;
 }
