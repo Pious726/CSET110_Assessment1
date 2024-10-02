@@ -191,4 +191,53 @@ form #send:hover {
     border: 2px solid black;
     box-sizing: border-box;
 }
-/* 
+
+body,html{
+    height: 100%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+header{
+    margin: 20px 0;
+}
+.title{
+    background-color: black;
+    color: white;
+    padding:15px 30px;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px #ffffff,-1px -1px #000000;
+    display: inline-block;
+}
+.image-selection{
+    padding: 10px;
+    margin: 20px auto;
+}
+.content-image{
+    width: 600px;
+    height: auto;
+    border:2px solid #252626;
+}
+text.section{
+    margin: 40px 0;
+    padding: 20px;
+}
+.section-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0 5px 0;
+}
+.section-text{
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
