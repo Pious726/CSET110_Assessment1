@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Style rules for text */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* Styles for hero image and content */
+.hero {
+    background-image: url("../images/the-beacon.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 50px 0;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 600px;
+    margin-right: 35px;
+}
+.hero-content h2{
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+.hero-content p {
+    background-color: #252626;
+    color: #fff;
+    padding: 8px 20px;
+    margin: 5px 0;
+}
+.readmore {
+    background-color: cyan;
+    color: #fff;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* Style rules for homepage grid */
+.three-grid {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.flex-item {
+    margin: 10px;
+    text-align: center;
+}
+.three-grid img {
+    border: 2px solid #252626;
+}
+.three-grid h2 {
+    margin: 12px 0;
+}
