@@ -5,6 +5,40 @@
     box-sizing: border-box;
 }
 
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 425px;
+    margin-top: 5%;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-bottom: 25px;
+}
+
+.main-nav a {
+    margin:3vw;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+.main-nav a:hover {
+   color: cyan;  
+}
+
 body {
     font-family: arial, sans-serif;
     min-height: 100vh;
